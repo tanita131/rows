@@ -1,6 +1,9 @@
 .about-body {
     background: #FBF8F8;
-    overflow: visible;
+}
+
+.navbar-about {
+    background-color: #3D3737;
 }
 
 .about-hero {
@@ -18,25 +21,68 @@
 .about-figure h2 {
     font-size: 65px;
     font-weight: 700;
-    color: #285f8f;
+    color: saddlebrown;
     position: absolute;
     top: 50%;
     left: 12%;
     transform: translate(-50%, -50%);
 }
 
+.aboutContent p {
+    color: #3D3737;
+    
+}
+
+.about-container {
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 9%;
+}
+
+.about-container .anchor img {
+    opacity: .7;
+    margin: 20px
+}
+
+.about-container .anchor img:hover {
+    opacity: 1;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fatherFigure {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .aboutTitle {
+    position: absolute;
+    font-family: 'Dancing Script';
+    font-size: 120px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+
 h3 {
     font-size: 30px;
-    color: pink;
+    color: #3D3737;
     margin-top: 60px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 hr.style-two {
     margin-top: 50px;
     border: 0;
     height: 2px;
-    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.2), rgba(255, 0, 0, 0.95), rgba(255, 0, 0, 0.2));
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.2), rgba(55, 0, 0, 0.95), rgba(255, 0, 0, 0.2));
 }
 
 footer {
@@ -81,5 +127,9 @@ footer {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    .about-container {
+        margin-left: 3%;
     }
 }

@@ -1,5 +1,23 @@
+.indexMain {
+    background-color: #3D3737;
+    background: url('../img/b-2.png');
+	background-repeat: repeat;
+    font-family: $primaryFont;
+    font-size: 18px;
+}
+
+.navbar-header a {
+    color: saddlebrown;
+    font-size: 25px;
+}
+
 .navbar-custom {
-    background-color: #3B1302;
+    background-color: seagreen;
+}
+
+.collapse ul li a {
+    color: saddlebrown;
+    font-size: 25px;
 }
 
 .navbar-toggle {
@@ -9,7 +27,7 @@
 .contenedor_tarjeta {
     padding: 0;
     margin: 0;
-    overflow: hidden; // opacity: 0.5;
+   
 }
 
 // .contenedor_tarjeta a {
@@ -26,7 +44,7 @@
 
 figure {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     margin: 0;
     position: relative;
     transition: all ease 1.5s;
@@ -61,33 +79,59 @@ figure .trasera {
 }
 
 .contenedor_tarjeta:nth-child(1) figure .trasera {
-    background: url("../img/chocolate1.jpg");
-    background-position: 50% 50%;
-    zoom: 70%;
+    background: url("../img/foto5.jpg");
+    width: 100%;
+    zoom: 30%;
 }
 
 .contenedor_tarjeta:nth-child(2) figure .trasera {
-    background: url("../img/chocolate2.jpg");
-    background-position: 50% 50%;
-    zoom: 92%;
+    background: url("../img/gpostre.jpg");
+   width: 100%;
+   zoom: 22%;
+
+   
 }
 
-.contenedor_tarjeta:nth-child(3) figure .trasera {
-    background: url("../img/chocolate3.jpg");
-    background-position: 90% 10%;
-    zoom: 80%;
-}
-
-.contenedor_tarjeta:nth-child(4) figure .trasera {
-    background: url("../img/chocolate4.jpg");
-    background-position: 50% 50%;
-}
 
 figure .trasera p {
     color: #fff;
     font-weight: normal;
     font-family: 'Dancing Script', cursive;
-    font-size: 30px;
+    font-size: 50px;
+}
+
+.indexAbout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.ourStory {
+    width: 70%;
+    text-align: center;
+    font-size: 20px;
+    margin: 40px 0;
+}
+
+.ourStory h2 {
+    font-size: 40px;
+}
+
+.ourStory:hover h2 {
+    color: pink;
+}
+
+.ourStory p {
+    margin: 30px 0;
+}
+
+.ourStory:hover p {
+    color: saddlebrown;
+}
+
+.indexFooter {
+    background-color: #43434e;
 }
 
 
